@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+	<title>物品详情页面</title>
+	<meta http-equiv="x-ua-compatible" content="no-store">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="http://hzgys.1zu.com/css/ams_controls.css?t=1.css" media="all"/>
+        <script type="text/javascript" src="http://hzgys.1zu.com/scripts/jquery/js.1.8.0min.js?t=1.js"
+            charset="utf-8"></script>
+	<script type="text/javascript" src="http://hzgys.1zu.com/scripts/coverForm.js?t=1.js" charset="utf-8"></script>
+	<script type="text/javascript" src="http://hzgys.1zu.com/scripts/ams_control.js?t=1.js" charset="utf-8"></script>
+
+		<!--add For AMS-->
+			<script charset="utf-8" type="text/javascript"
+				src="http://hzgys.1zu.com/scripts/coverForm.js?t=1.js"></script>
+		
+				<script type="text/javascript" src="http://hzgys.1zu.com/scripts/page.js?t=1.js" charset="utf-8"></script>
+				<link rel="stylesheet" type="text/css" href="http://hzgys.1zu.com/css/o2o_controls.css?t=1.css">
+		<script type="text/javascript" src="http://hzgys.1zu.com/scripts/o2o_util.js?t=1.js"></script>
+			
+	
+	
+		
+			<script src="http://hzgys.1zu.com/scripts/lehoho/ext/ext.js" type="text/javascript"></script>
+		<script type="text/javascript" language="javascript"
+			src="http://hzgys.1zu.com/scripts/lehoho/ext/ext-base.js"></script>
+		<script type="text/javascript" language="javascript"
+			src="http://hzgys.1zu.com/scripts/lehoho/ext/ext-all.js"></script>
+		<script type="text/javascript" language="javascript"
+			src="http://hzgys.1zu.com/scripts/lehoho/ext/ext-lang-zh_CN.js"></script>
+		<link rel="stylesheet" type="text/css"
+			href="http://hzgys.1zu.com/scripts/lehoho/ext/resources/css/ext-all.css">
+		<script type="text/javascript" language="javascript"
+			src="http://hzgys.1zu.com/scripts/lehoho/ext/TreeCheckNodeUI.js"></script>
+		<script type="text/javascript" language="javascript"
+			src="http://hzgys.1zu.com/scripts/lehoho/ext/ext-basex.js"></script>
+	
+			<link rel="stylesheet" type="text/css"
+			  href="http://hzgys.1zu.com/scripts/jquery/themes/base/jquery-ui-1.8.0.css?t=1.css" media="all"/>
+		<script type="text/javascript" src="http://hzgys.1zu.com/scripts/jquery/ui/jquery-ui.min.js?t=1.js"
+				charset="utf-8"></script>
+        
+    	<script>
+
+		//清空表单
+		function clean(formId) {
+			var inputs;
+			if (formId != null && formId != "") {
+				var _form = document.getElementById(formId);
+				inputs = _form.getElementsByTagName("input");
+			} else {
+				inputs = document.getElementsByTagName("input");
+			}
+
+			//  var inputs=document.getElementsByTagName("input");
+
+
+			for (var i = 0; inputs != null && i < inputs.length; i++) {
+				if (inputs[i].type.toLowerCase() == "text") {
+					inputs[i].value = "";
+				}
+			}
+			inputs = document.getElementsByTagName("select");
+
+			for (var i = 0; inputs != null && i < inputs.length; i++) {
+				if (inputs[i].type.toLowerCase() == "select-one") {
+
+					if (inputs[i].id != "_page_size"){
+						inputs[i].selectedIndex = "";
+					}
+				}
+			}
+		}
+
+		function cleanAll(formId) {
+			clean(formId);
+			$("#" + formId + " input[type='hidden']").val("");
+		}
+
+		function showWaiting() {
+			//显示loading图片
+			$(".loadingWrap").css("height", $(document).height());
+			$(".loadingWrap").show();
+		}
+
+		function closeWaiting() {
+			//隐藏loading图片
+			$(".loadingWrap").hide();
+		}
+
+		$(function () {
+			var returnurl = "";
+			if (returnurl != "" && returnurl != null && returnurl != undefined) {
+				if ($("p[data-src*='" + returnurl + "']")) {
+					if ($("p[data-src*='" + returnurl + "']")) {
+						var parentFlag = true;
+						$("p[data-src*='" + returnurl + "']").parents().each(function () {
+							if (parentFlag) {
+
+								if ($(this).attr("id") == "menu") {
+									parentFlag = false;
+								} else {
+									//$(this).prev("p").click();
+									$(this).prevAll("p").last().click();
+								}
+							}
+						});
+
+						$("p[data-src*='" + returnurl + "']").click();
+					}
+				}
+			}
+		});
+	</script>
+</head>
+	<body>
+        
+		
+		
+
+
+
+
+<!--<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
+<!--<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+<link href="http://hzgys.1zu.com/css/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://hzgys.1zu.com/css/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://hzgys.1zu.com/styles/magnify/jquery.magnify.css?t=1.css" rel="stylesheet"></link>
+<!--<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<script src="http://hzgys.1zu.com/scripts/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://hzgys.1zu.com/scripts/magnify/jquery.magnify.js?t=1.js"></script>
+<link rel="stylesheet" type="text/css" href="http://hzgys.1zu.com/scripts/clean/skin/jedate.css?t=1.css"  />
+<script src="http://hzgys.1zu.com/scripts/dateformat.js" type="text/javascript"></script>
+<script src="http://hzgys.1zu.com/scripts/clean/jquery.jedate.js?t=1.js" type="text/javascript" ></script>
+<style>
+	.select-root {
+		width: 80%;
+		height: 24px;
+		color: #666666;
+		font-size: 14px;
+		margin-top: 8px;
+		line-height: 24px;
+		padding-left: 10px;
+		border-radius: 4px;
+		border: 1px solid #dcdcdc;
+	}
+</style>
+<script type="text/javascript">
+$().ready(function () {
+	function formValidate() {
+        $('#myForm').trigger('submit')
+	}
+
+	function show(){
+	    var target = document.getElementById("sonWindowDiv");
+	    target.style.display="block";
+	}
+
+	function closediv(){
+	    var target = document.getElementById("sonWindowDiv");
+	    target.style.display="none";
+	    $("#contractId").val("");
+	}
+
+	//结算改版-费用申诉 add.zjshao 2021-07-27 start
+	$("#feeAppealBtn").click(function () {
+		var msg = checkCanAddSettlementRecord();
+		if( msg != ""){
+			alert(msg);
+			return;
+		}
+		$("#dialog_appeal").dialog({
+			height: 500,
+			width: 600,
+			modal: true,
+			buttons: {
+				"提交": function () {
+					//结算类型
+					var siType="1001600020005";
+					//申诉原因
+					var appealReason = $("#appealReason").find("option:selected").val();
+					//备注
+					var modifyReason=$("#modifyReason").val();
+					if(modifyReason=='0/200'){
+						modifyReason="";
+					}
+					//结算金额
+					var modifySettlementMoney=$("#modifySettlementMoney").val();
+					if (appealReason == undefined || appealReason == "" || appealReason == "请选择") {
+						alert("请选择申诉原因！");
+					}else if (modifySettlementMoney == "" || modifySettlementMoney==null || modifySettlementMoney=="￥"){
+						alert("请输入结算金额！");
+					}else{
+
+						var orderId=$("#orderId").val();
+						jQuery.ajax({
+							type:"POST",
+							url:"http://hzgys.1zu.com/settlementRecord/addSettlementAppealRecord.htm",
+							data: {"order": orderId ,"appealReason":appealReason,"modifyReason":modifyReason,"modifySettlementMoney":modifySettlementMoney,"siType":siType},
+							dataType :'json',
+							async: false,
+							success:function(data){
+
+								if(data.success == true) {
+									alert("费用申诉成功!");
+									if(window.parent.document.getElementById("B_WORKORDER_MA_4706_ALLOCATION_LIST_content")){
+										window.parent.document.getElementById("B_WORKORDER_MA_4706_ALLOCATION_LIST_content").contentWindow.location.reload();
+									}
+									if(window.parent.document.getElementById("B_USER_TASK_MA_3007_DPGRCLIST_content")){
+										window.parent.document.getElementById("B_USER_TASK_MA_3007_DPGRCLIST_content").contentWindow.location.reload();
+									}
+									window.parent.document.getElementsByClassName("indexCurrent")[0].getElementsByTagName("span")[0].click();
+								}else {
+									alert( data.error);
+
+									windows.location.reload();
+								}
+							},
+							error:function (XMLHttpRequest, textStatus, errorThrown){
+
+								//console.log(textStatus +"," +errorThrown);
+								alert("查询异常!");
+
+							}
+						});
+
+					}
+
+				},"取消": function () {
+					$(this).dialog('close');
+				}
+			}
+		});
+
+	});
+});
+
+//申诉详情
+function detailSettlementFeeAppeal(obj){
+	var settlementId= $("#orderId").val()
+	var feeAppealStatus= "${detailHouseallocationGoods.feeAppealStatus}";
+	var siType="1001600020005";
+	var url = 'http://hzgys.1zu.com/settlementRecord/detailSettlementFeeAppeal.htm?settlementId='+settlementId+'&siType='+siType;
+	if(feeAppealStatus == '1001600070002'){
+		win = showWindow('费用申诉详情', 550, 300,url, false, true, '10','10');
+		win.show();
+	}else{
+		win = showWindow('费用申诉详情', 640, 540,url, false, true, '10','10');
+		win.show();
+	}
+}
+
+ function checkQuantity(data) {
+		shuzi(data);
+		if (!validateFloat($(data).val().trim(), 6, 2)) {
+			 alert("最大6位整数，两位小数的金额。");
+			 $(data).val("");
+		}
+	}
+   
+   /**
+    * @param value
+    * @param m 最大整数位数（null表示不限制）
+    * @param n 最大小数位数（null表示不限制，0表示没有小数位）
+    */
+   function validateFloat(value, m, n) {
+   	if (isNaN(value)){
+   		return false;
+   	}
+   	
+   	var regex;
+   	if (m==null && n==null) {
+   		//整数位和小数位都不限制
+   		regex = new RegExp("^([0-9]*\\.?[0-9]*)$");
+   	}
+   	else if (m==null && n!=null) {
+   		//整数位不限制，小数位限制
+   		regex = new RegExp("^([0-9]*\\.?[0-9]{0,"+n+"})$");
+   	}
+   	else if (m!=null && n==null) {
+   		//整数位限制，小数位不限制
+   		regex = new RegExp("^([0-9]{0,"+m+"}(\\.[0-9]*)?)$");
+   	}
+   	else {
+   		//整数位和小数位都限制
+   		regex = new RegExp("^(([0-9]{0,"+m+"}\\.?)|(\\.[0-9]{0,"+n+"})|([0-9]{0,"+m+"}\\.[0-9]{0,"+n+"}))$");
+   	}
+   	
+   	return regex.test(value);
+   }
+
+   //数字类型check
+   function shuzi(data) {
+   	if (data.value != "") {
+   		//bug 54432 modify.zjshao 20210805
+   		if (!(/^[0-9]+.?[0-9]*$/.test(data.value))) {
+   			alert("必须为数字!");
+   			data.value = '';
+   		}
+   	}
+   }
+
+//显示退回原因
+function showBackReason(){
+	$(".backReason").dialog({
+				height: 400,
+				width: 600,
+				modal: 400,
+		});
+}
+function checkCanAddSettlementRecord(){
+	var reason = "";
+	var goodsSettlementId = $("#goodsSettlementId").val();
+	jQuery.ajax({
+		type:"POST",
+		url:"http://hzgys.1zu.com/settlementRecord/checkCreateSettlementRecord.htm",
+		data: {
+			"orderId" : goodsSettlementId,
+			"feeAppealStatus" : '' ,
+			"siType" : '1001600020005'
+		},
+		async:false,
+		dataType :'json',
+		success:function(data){
+			if(data.success == true) {
+
+			}else {
+				reason = data.error;
+			}
+		},
+		error:function (XMLHttpRequest, textStatus, errorThrown){
+			closeWaiting();
+			alert("系统异常!");
+		}
+	});
+	return reason;
+}
+</script>
+
+<p class="curPosition">
+	<i></i>当前位置：
+	<span  id="curPosition">物品详情页面</span>
+</p>
+<div class="detaWrap deShow">
+	<div class="dePart">
+		<div class="dePtitle">
+			<h3>房源信息</h3>
+            <b class="deFold"></b>
+            <input type="hidden" id="pageSource" value="commonClean" />
+		</div>
+		<table class="deTable">
+			<tr>
+				<td>
+					<h4>房源编号：</h4>
+					<h5>
+						FY0000658936
+					</h5>
+				</td>
+			    <td>
+					<h4>委托合同号：</h4>
+					<h5>
+						XW10073777
+					</h5>
+				</td>
+				<td>
+					<h4>小区名称：</h4>
+					<h5>
+						尚筑金座
+					</h5>
+				</td>
+			</tr>
+			<tr>
+				<td>
+    				 <h4>物业地址：</h4>
+    				 <h5>
+    				    浙江省 杭州市 上城区 近江路8号 尚筑金座  1幢  5层 521
+    				 </h5>
+				</td>
+				<!--<td>
+    				 <h4>产权地址：</h4>
+        			 <h5>
+        				 尚筑金座521室
+        			</h5>
+				</td>-->
+				<!--71826 【需求】配置供应商端和配置师傅端 增加合同所属人及合同所属人店长的联系方式 add.zjshao 20220914 start-->
+				<td>
+    				 <h4>收房人：</h4>
+    				 <h5>
+    				    杨逸飞2 18072815228
+    				 </h5>
+				</td>
+				<td>
+    				 <h4>业务主任：</h4>
+    				 <h5>
+    				    袁晓琴 13777853637
+    				 </h5>
+				</td>
+				<!--71826 【需求】配置供应商端和配置师傅端 增加合同所属人及合同所属人店长的联系方式 add.zjshao 20220914 end-->
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="detaWrap deShow">
+	<div class="dePart">
+		<div class="dePtitle">
+			<h3>配置单信息</h3>
+            <b class="deFold"></b>
+		</div>
+		<table class="deTable">
+			<tr>
+				<td>
+					<h4>配置单编号：</h4>
+					<h5>
+						PZ11263085
+					</h5>
+				</td>
+                <td>
+					<h4>申请人：</h4>
+					<h5>
+						<label>
+							杨逸飞2
+                        </label>
+						<label >
+							18072815228
+                        </label>
+						
+					</h5>
+				</td>
+				<td>
+					<h4>配置单状态：</h4>
+					<h5>
+						待安装					</h5>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="detaWrap deShow">
+	<div class="dePart">
+		<div class="dePtitle">
+			<h3>物品信息</h3>
+            <b class="deFold"></b>
+		</div>
+		<table class="deTable">
+			<tr>
+				<td>
+					<h4>物品编号：</h4>
+					<h5>
+						16995902
+						<input type="hidden" id="orderId" value="16995902"/>
+						<input type="hidden" id="goodsSettlementId" value=""/>
+					</h5>
+				</td>
+				<td>
+					<h4>物品名称：</h4>
+					<h5>
+					   二手热水器50L热水器
+					</h5>
+				</td>
+				<td>
+					<h4>品牌：</h4>
+					<h5>
+					   
+					</h5>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>物品规格：</h4>
+					<h5>
+						
+					</h5>
+				</td>
+				<td>
+					<h4>数量/平方米：</h4>
+					<h5>
+						1
+					</h5>
+				</td>
+				<td>
+					<h4>物品单价(元)：</h4>
+					<h5>
+						￥400.00
+					</h5>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>附加项目：</h4>
+					<h5>
+						
+					</h5>
+				</td>
+				<td>
+					<h4>附加费用(元)：</h4>
+					<h5>
+						
+					</h5>
+				</td>
+				<td>
+					<h4>配置总额(元)：</h4>
+					<h5>
+						￥400.00
+					</h5>
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<h4>物品状态：</h4>
+						<h5>
+															待安装
+													</h5>
+				</td>
+				<!--******************结算改版 add by wuq 2021-07-28 begin**************-->
+				<td>
+					<h4>费用申诉状态：</h4>
+					<h5>
+													-
+											</h5>
+				</td>
+				<!--******************结算改版 add by wuq 2021-07-28 begin**************-->
+				
+									<td>
+						<h4>旧物品处理方式：</h4>
+						<h5>
+							物品处理
+						</h5>
+					</td>
+								
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="detaWrap deShow">
+	<div class="dePart">
+		<div class="dePtitle">
+			<h3>安装信息</h3>
+            <b class="deFold"></b>
+		</div>
+		<table class="deTable">
+			<tr>
+				<td>
+					<h4>安装人员：</h4>
+					<h5>
+						姜金清
+					</h5>
+				</td>
+				<td>
+					<h4>派工时间：</h4>
+					<h5>
+					   2023-02-06 18:17
+					</h5>
+				</td>
+				<td>
+					<h4>上门时间：</h4>
+					<h5>
+					   
+					</h5>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>送达时间：</h4>
+					<h5>
+						
+					</h5>
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<h4>配送完成图片：</h4>
+						<div class="image-set">
+    						<h5>
+        													</h5>
+                        </div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div id="dialog_appeal" title="费用申诉" style="display: none;">
+	<font color = "red">*</font>申诉原因：     <select class="formSelect joint" name="appealReason" id="appealReason">
+	<option value="">请选择</option>
+						<option value="10016000600020001"
+							>材料费录入错误</option>
+					<option value="10016000600020002"
+							>撤单</option>
+					<option value="10016000600020003"
+							>供应商调整</option>
+					<option value="10016000600020004"
+							>未配送/未完成</option>
+			</select>
+	<br>
+	<textarea  class="formTextArea"  name="modifyReason" id="modifyReason"  style="width:100%" maxlength="200" placeholder="0/200" ></textarea>
+	<font color = "red">*</font>结算金额：
+	<input class="formInput" name="modifySettlementMoney" id="modifySettlementMoney" placeholder="￥"  onchange="checkQuantity(this);"/>
+</div>
+<script>
+	$(function() {
+		$('[data-magnify]').magnify({
+			headToolbar: [
+				'close'
+			],
+			footToolbar: [
+				'zoomIn',
+				'zoomOut',
+				'prev',
+				'fullscreen',
+				'next',
+				'actualSize',
+				'rotateRight'
+			],
+			modalWidth: 420,
+			modalHeight: 420,
+			fixedModalSize: true,
+			title: false,
+			resizable: false
+		});
+	});
+	
+</script>
+		<div class="loadingWrap" style="width: 100%; height: 100%; z-index: 2001;display:none;">
+            <p class="loadingPic">加载中。。请稍后！</p>
+</div>
+	</body>
+</html>
