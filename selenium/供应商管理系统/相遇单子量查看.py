@@ -3,7 +3,7 @@ from lxml import etree
 
 
 def getHTMLText(url):
-    cookie = "_sy_iu_0201=2aswiv2ngyo4t3fma5cz3trtxwejsahgemfaoknudf645vqfo7jlhedjur5tf6xzxwfjpsinoqtntcihafwwgh6csey3b7gvnrmazemauynoi3eoudv4ds6pwyqcqsbsvwvimk2ceqzfc4xzdah72mwkem"
+    cookie = "******"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0',
         'Cookie': cookie
@@ -29,7 +29,7 @@ def getHTMLText(url):
 
 
 if __name__ == '__main__':
-    url = 'http://hzgys.1zu.com/maintainOrders/initMaintainOrderDbList.htm'
+    url = 'http://******'
     print('相遇单子数目'.center(35, '-'))
     b = str('0')
     asd = getHTMLText(url)
