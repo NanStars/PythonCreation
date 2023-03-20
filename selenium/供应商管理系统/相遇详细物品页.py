@@ -4,7 +4,7 @@ import requests, csv, re
 from lxml import etree
 
 def getHTMLText(url):
-    cookie = "_sy_iu_0201=atmti7e7qmo57gfvaivrymf2ncdkgxg23eymofyajjznj5kufgzevxe627vpheyxqcjueqsdxdpfqhaviiiq3uvqlmnpseqlmrnw4lub2llgusalpzikfjeftriuiy2yzeorkiy2427vsuiemxupjcexji"
+    cookie = "*********"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0',
         'Cookie': cookie
@@ -31,5 +31,5 @@ def getHTMLText(url):
 
 
 if __name__ == '__main__':
-    url = 'http://hzgys.1zu.com/supplierHouseallocation/detailHouseallocationGoods.htm?goodsId=16995902'
+    url = '********'
     getHTMLText(url)
