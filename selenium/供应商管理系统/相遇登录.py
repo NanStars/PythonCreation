@@ -17,14 +17,14 @@ URL = 'http://www.bhshare.cn/imgcode/'  # 接口地址
 
 def breakvcode():
     # 打网站
-    browser.get("http://hzgys.1zu.com/admin/login.htm")
+    browser.get("*******")
     sleep(2)  # 两秒以后
     email = browser.find_element(By.ID, "username")  # 获取账号input
-    email.send_keys("3168000000")  # 填写账号
+    email.send_keys("*******")  # 填写账号
     time.sleep(2)
     pwd = browser.find_element(By.ID, "password")  # 获取密码input
     time.sleep(2)
-    pwd.send_keys("j12345678")  # 填写密码
+    pwd.send_keys("*****")  # 填写密码
     time.sleep(2)
     browser.get_screenshot_as_file('img.png')
     vcode = browser.find_element(By.XPATH, "//img[@id='check_code']")
@@ -98,7 +98,7 @@ def Number_of_orders():
     types = e_html.xpath('//*[@id="info"]/span[5]/text()')  # 类型
     print(types)
 
-    score = e_html.xpath('//*[@id="interest_sectl"]/div[1]/div[2]/strong/text()')  # 豆瓣评分
+    score = e_html.xpath('//*[@id="interest_sectl"]/div[1]/div[2]/strong/text()')  # 
     print(score)
 
 
