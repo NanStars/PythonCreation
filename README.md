@@ -15,7 +15,7 @@ Small experiments. Useful notes. Learning by doing.
 
 **PythonCreation 是一份个人 Python 学习与实验档案**，收录日常小脚本、创意演示、数据可视化练习，以及较早的自动化与页面解析尝试。
 
-它**不是一个统一应用、可安装的 Python 包，也不是一键即用的工具箱**。各目录相互独立，保留原来的名字；先按用途找到示例，再查看它需要什么输入、依赖，以及运行后会做什么。
+它**不是一个统一应用、可安装的 Python 包，也不是一键即用的工具箱**。各目录相互独立，按统一英文命名归类；先按用途找到示例，再查看它需要什么输入、依赖，以及运行后会做什么。
 
 > 如果想找结构更完整、带独立启动和部署文档的项目，可以看 [Practical Toolbox](https://github.com/NanStars/practical-toolbox)。
 
@@ -23,12 +23,12 @@ Small experiments. Useful notes. Learning by doing.
 
 | 类别 | 目录入口 | 主要内容 |
 | :--- | :--- | :--- |
-| **文本与编码** | [TXT 合成](TXT%E5%90%88%E6%88%90/) · [Base64](base64/) · [文字阅读](%E6%96%87%E5%AD%97%E9%98%85%E8%AF%BB/) | TXT 合并、编码识别与转换、图片数据解码、文字转语音。 |
-| **便利小工具** | [便利工具](%E4%BE%BF%E5%88%A9%E5%B7%A5%E5%85%B7/) | 翻译练习、使用 OpenCV 点击图片并获取坐标。 |
-| **数据可视化** | [历史可视化项目](Epidemic-visualization-main/yiqing/) | Flask 路由、MySQL 数据查询与 ECharts 图表的组合练习。 |
-| **浏览器自动化** | [Selenium 练习](selenium/) | 浏览器交互、文件上传等历史示例，使用前需检查版本与页面适配。 |
-| **创意与演示** | [花里胡哨](%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/) | 代码雨、Turtle 圣诞树、烟花 HTML、倒计时与终端进度输出。 |
-| **历史解析与排错** | [STEAM](STEAM/) · [历史采集](%E5%B0%8F%E8%AF%B4%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE/) · [问题记录](%E9%97%AE%E9%A2%98/) | HTML 解析、历史采集流程，以及中文编码和请求错误的学习记录。 |
+| **文本与编码** | [TXT 文本处理](text-processing/txt-tools/) · [Base64](text-processing/base64-tools/) · [文字阅读](text-processing/text-to-speech/) | TXT 合并、编码识别与转换、图片数据解码、文字转语音。 |
+| **便利小工具** | [便利工具](utilities/) | 翻译练习、使用 OpenCV 点击图片并获取坐标。 |
+| **数据可视化** | [历史可视化项目](data-visualization/epidemic-dashboard/) | Flask 路由、MySQL 数据查询与 ECharts 图表的组合练习。 |
+| **浏览器自动化** | [Selenium 练习](browser-automation/) | 浏览器交互、文件上传等历史示例，使用前需检查版本与页面适配。 |
+| **创意与演示** | [创意演示](creative-demos/) | 代码雨、Turtle 圣诞树、烟花 HTML、倒计时与终端进度输出。 |
+| **历史解析与排错** | [STEAM](web-scraping/steam-packages/) · [历史采集](web-scraping/novel-examples/) · [问题记录](troubleshooting/) | HTML 解析、历史采集流程，以及中文编码和请求错误的学习记录。 |
 
 ## 先看这几个
 
@@ -36,12 +36,12 @@ Small experiments. Useful notes. Learning by doing.
 
 | 示例 | 依赖 | 输入与运行效果 |
 | :--- | :--- | :--- |
-| [十秒倒计时](%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/%E5%8D%81%E7%A7%92%E5%80%92%E8%AE%A1%E6%97%B6.py) | Python 标准库 | 在终端打印倒计时。 |
-| [进度条](%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/%E8%BF%9B%E5%BA%A6%E6%9D%A1.py) | Python 标准库 | 演示终端刷新输出，不会真的下载文件。 |
-| [图片数据解码](base64/%E5%9B%BE%E7%89%87%E8%A7%A3%E7%A0%81.py) | Python 标准库 | 输入带逗号分隔的图片 data URL；写入 `33.jpeg`，会覆盖同名文件。 |
-| [图像坐标定位](%E4%BE%BF%E5%88%A9%E5%B7%A5%E5%85%B7/%E8%8E%B7%E5%8F%96%E5%9B%BE%E5%83%8F%E5%9D%90%E6%A0%87%E7%82%B9/%E5%9D%90%E6%A0%87%E5%AE%9A%E4%BD%8D.py) | `opencv-python` · `numpy` | 打开本地图片并记录点击位置；需要桌面环境，且至少点击一次。 |
-| [代码雨](%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/%E4%BB%A3%E7%A0%81%E9%9B%A8.py) | `pygame` | 图形动画练习，窗口尺寸固定为 1920 × 1080。 |
-| [圣诞树](%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/%E5%9C%A3%E8%AF%9E%E6%A0%91.py) | `turtle` / Tk 支持 | 绘图练习，需要可用的图形桌面。 |
+| [十秒倒计时](creative-demos/countdown.py) | Python 标准库 | 在终端打印倒计时。 |
+| [进度条](creative-demos/progress_bar.py) | Python 标准库 | 演示终端刷新输出，不会真的下载文件。 |
+| [图片数据解码](text-processing/base64-tools/decode_image.py) | Python 标准库 | 输入带逗号分隔的图片 data URL；写入 `decoded-image.jpeg`，会覆盖同名文件。 |
+| [图像坐标定位](utilities/image-coordinates/select_coordinates.py) | `opencv-python` · `numpy` | 打开本地图片并记录点击位置；需要桌面环境，且至少点击一次。 |
+| [代码雨](creative-demos/code_rain.py) | `pygame` | 图形动画练习，窗口尺寸固定为 1920 × 1080。 |
+| [圣诞树](creative-demos/christmas_tree.py) | `turtle` / Tk 支持 | 绘图练习，需要可用的图形桌面。 |
 
 ### 一个最小的终端示例
 
@@ -51,8 +51,8 @@ Small experiments. Useful notes. Learning by doing.
 git clone https://github.com/NanStars/PythonCreation.git
 cd PythonCreation
 
-python "花里胡哨/十秒倒计时.py"
-python "花里胡哨/进度条.py"
+python "creative-demos/countdown.py"
+python "creative-demos/progress_bar.py"
 ```
 
 请确认 `python` 指向自己的 Python 3 解释器。进度条中的 “Download progress” 只是演示文案，并不是实际下载任务。
@@ -61,8 +61,8 @@ python "花里胡哨/进度条.py"
 
 1. **先读单个脚本，再决定是否运行。** 部分文件导入时就会执行代码，不要批量运行整个仓库。
 2. **第三方依赖放到独立环境。** 仓库没有统一依赖锁文件，也没有经过验证的统一 Python 版本目标；只为选中的示例安装实际需要的依赖。
-3. **检查路径和工作目录。** 旧示例包含本机绝对路径；`1.txt` 等相对文件通常从当前工作目录读取，不一定从脚本所在目录读取。
-4. **文件处理先用副本。** 编码转换会重写源文件；TXT 合并会追加到 `合并.txt`，重复运行可能产生重复内容。
+3. **检查路径和工作目录。** 旧示例包含本机绝对路径；`sample.txt` 等相对文件通常从当前工作目录读取，不一定从脚本所在目录读取。
+4. **文件处理先用副本。** 编码转换会重写源文件；TXT 合并会追加到 `merged.txt`，重复运行可能产生重复内容。
 5. **网页相关示例需要重新适配。** 旧网址、选择器、接口、登录流程和浏览器驱动不一定仍与当时一致。
 
 ## 较大项目与历史示例说明
@@ -70,16 +70,16 @@ python "花里胡哨/进度条.py"
 <details>
 <summary><strong>TXT 处理与文字朗读</strong></summary>
 
-- [TXT 合并](TXT%E5%90%88%E6%88%90/%E5%90%88%E6%88%90.py) 使用写死的输入目录并追加输出，没有显式排序目录中的文件。
-- [编码查看](TXT%E5%90%88%E6%88%90/%E7%BC%96%E7%A0%81%E6%9F%A5%E7%9C%8B.py) 和 [编码转换](TXT%E5%90%88%E6%88%90/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2.py) 使用 `chardet`；转换前先备份原文件。
-- [文字朗读示例](%E6%96%87%E5%AD%97%E9%98%85%E8%AF%BB/) 使用 `pyttsx3` 和系统语音。示例从当前工作目录读取 `1.txt`，可用语音受操作系统影响。
+- [TXT 合并](text-processing/txt-tools/merge_txt.py) 使用写死的输入目录并追加输出，没有显式排序目录中的文件。
+- [编码查看](text-processing/txt-tools/detect_encoding.py) 和 [编码转换](text-processing/txt-tools/convert_encoding.py) 使用 `chardet`；转换前先备份原文件。
+- [文字朗读示例](text-processing/text-to-speech/) 使用 `pyttsx3` 和系统语音。示例从当前工作目录读取 `sample.txt`，可用语音受操作系统影响。
 
 </details>
 
 <details>
 <summary><strong>历史数据可视化项目</strong></summary>
 
-主要入口是 [app.py](Epidemic-visualization-main/yiqing/app.py)、[sqldata.py](Epidemic-visualization-main/yiqing/sqldata.py)、[spider.py](Epidemic-visualization-main/yiqing/spider.py)，以及模板和静态图表资源。
+主要入口是 [app.py](data-visualization/epidemic-dashboard/app.py)、[database.py](data-visualization/epidemic-dashboard/database.py)、[data_collector.py](data-visualization/epidemic-dashboard/data_collector.py)，以及模板和静态图表资源。
 
 项目组合了 Flask、PyMySQL、requests、MySQL 与 ECharts。仅启动 Flask 并不会自动提供数据库、表结构、连接配置和有效数据。历史上游数据接口未重新验证，适合作为可视化学习材料，**不应当作当前疫情统计服务**。
 
@@ -90,7 +90,7 @@ python "花里胡哨/进度条.py"
 
 Selenium 目录包含浏览器交互和早期站点适配示例，部分代码使用旧式 Selenium API。不要假定附带的 `chromedriver.exe` 与本机浏览器兼容，也不要直接把旧登录示例当作可用集成。
 
-[STEAM 解析示例](STEAM/STEAM_subid/STEAM_DB.py) 需要本地 `STEAM_DB.html` 输入，但仓库没有提供该文件。历史采集示例可能依赖已改变的网页结构或外部服务；改写前先确认访问权限、请求频率和内容使用授权。
+[STEAM 解析示例](web-scraping/steam-packages/parse_packages.py) 需要本地 `steamdb.html` 输入，但仓库没有提供该文件。历史采集示例可能依赖已改变的网页结构或外部服务；改写前先确认访问权限、请求频率和内容使用授权。
 
 </details>
 
@@ -101,7 +101,7 @@ Selenium 目录包含浏览器交互和早期站点适配示例，部分代码�
 - 仓库还保留了历史 IDE 配置、网页存档、文本输出和驱动程序；它们不构成完整的依赖或部署包。
 - 当前没有统一 `LICENSE`。公开可见不等于获得任意再分发或商业使用授权，复用前应核对来源与第三方许可证。
 
-**本次整理只更新文档与仓库介绍。** 不移动目录、不改变程序逻辑、不执行历史脚本，也不宣称所有示例现在都能直接运行。
+**命名规范化只变更目录、文件名及必需的路径引用，不调整业务逻辑。** 历史程序和二进制驱动仍未执行，也不宣称所有示例现在都能直接运行。
 
 ---
 
@@ -112,3 +112,8 @@ Selenium 目录包含浏览器交互和早期站点适配示例，部分代码�
 [PΛV](https://github.com/NanStars) · [个人网站](https://www.worldai.fun) · [实用工具箱](https://github.com/NanStars/practical-toolbox)
 
 </div>
+
+
+## 命名与旧路径迁移
+
+目录采用英文 `kebab-case`，Python 模块采用 `snake_case.py`。查看[命名规范](docs/naming-conventions.md)和[旧名 → 新名对照表](docs/path-migration.csv)。

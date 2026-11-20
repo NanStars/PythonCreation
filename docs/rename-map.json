@@ -1,0 +1,781 @@
+{
+  "baseline_commit": "075c9da563a966fa310621ecbd90e4a46bf7b502",
+  "convention": "kebab-case directories and web/data files; snake_case Python modules; preserve tool-defined names",
+  "entries": [
+    {
+      "old": "DDOS/DDOS攻击.py",
+      "new": "network-experiments/ddos_demo.py",
+      "original_sha256": "1c600150a8592009dc75f1840fc15ce0876aeca4a4417e7f25dd1b050064bbdb",
+      "ast_shape_sha256": "4d83e9fd820f152f29f35d47f5bf51a48977d4ea9d52365155b415502b64089e",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/.idea/.gitignore",
+      "new": "data-visualization/epidemic-dashboard/.idea/.gitignore",
+      "original_sha256": "23f68af3646216e5443a0c46df02cbc01d113be9757d341965f23d825e81cc47",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/.idea/dataSources.xml",
+      "new": "data-visualization/epidemic-dashboard/.idea/dataSources.xml",
+      "original_sha256": "56ec8224fbfb80123c921bd2f840a7be50caf85266b584495ec746474fc81c53",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/.idea/inspectionProfiles/profiles_settings.xml",
+      "new": "data-visualization/epidemic-dashboard/.idea/inspectionProfiles/profiles_settings.xml",
+      "original_sha256": "0156739e86d393cb905f58205f66160abd542749917415ac3b5155261528ae0b",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/.idea/misc.xml",
+      "new": "data-visualization/epidemic-dashboard/.idea/misc.xml",
+      "original_sha256": "4e9ee344f596a1657a1715ea0a8339d1b672ee71e586e644ac801a3d69657944",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/.idea/modules.xml",
+      "new": "data-visualization/epidemic-dashboard/.idea/modules.xml",
+      "original_sha256": "13b20e12a7adc3a81e05b48911c4cb73b0d23f60a9e2ce26410b1770e183a1fd",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/.idea/yiqing.iml",
+      "new": "data-visualization/epidemic-dashboard/.idea/epidemic-dashboard.iml",
+      "original_sha256": "09b18c467da65b326d62ec334b1b159e5dfd7381ddfa873bf18ba65fe1ecec1e",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/app.py",
+      "new": "data-visualization/epidemic-dashboard/app.py",
+      "original_sha256": "557c22809cdbd804b258d1faf3006f7dfe1caff1df037b891ed3ca6ac81e879e",
+      "ast_shape_sha256": "e647bff683ac376c6ce15357124a157ba0527daadb8d21ad38ef03bf09aa4555",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/spider.py",
+      "new": "data-visualization/epidemic-dashboard/data_collector.py",
+      "original_sha256": "89798cdc73e2ab6b16b91ea85c504d78caa42dfdf09c6fb49b35511bf4858460",
+      "ast_shape_sha256": "fe8bd83856591ceb35db052cb70df0c35fdb34b07c42765b0fbf6b48d8a6b4ec",
+      "original_remote_urls_sha256": "398db2d904b59e8274a5d1858b2d1e81ece44013841ac3c48b419025bb3e3e82"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/sqldata.py",
+      "new": "data-visualization/epidemic-dashboard/database.py",
+      "original_sha256": "ab644aac0a960cb30b45cd95d78996141f158efde65f35fdbb7293f9d8a5f298",
+      "ast_shape_sha256": "35c209140c397e784475c9a5a9883634cf51a6c676ba16a15963c21b0bcc0566",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/css/main.css",
+      "new": "data-visualization/epidemic-dashboard/static/css/dashboard.css",
+      "original_sha256": "72bacba9c2a2b1ac5a708a42fbebe64eb36b3735f9941ef2dee6230bd608d212",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/china.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/china-map-data.js",
+      "original_sha256": "aa28c4ab15a805f9a886e59e06449c6468fd61a9809a1c0a25f17fbd2560b4b1",
+      "original_remote_urls_sha256": "085e25a42b2181ccfbad08467555e98ec01fdf64f2f5bb335ce807e6403e927d"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/control.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/dashboard-controller.js",
+      "original_sha256": "13977e99651ab40175292b23de56c2ba96565ce09d82d9855cd6e971eeed769d",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/dark .js",
+      "new": "data-visualization/epidemic-dashboard/static/js/echarts-dark-theme.js",
+      "original_sha256": "a0d84fa6e44d7cba42a5d06453a3d49d46a1c48ff77ce6414ab7bccc5576404f",
+      "original_remote_urls_sha256": "085e25a42b2181ccfbad08467555e98ec01fdf64f2f5bb335ce807e6403e927d"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/ec_c2.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/china-map.js",
+      "original_sha256": "7492647c24a927ba0162af7fcea3be672284e8870d0e8c00bf01d84fbc6d3cfa",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/ec_l1.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/history-trend.js",
+      "original_sha256": "4415664fe5bcf7993e6dd99fbaae452e6ff649c20a1142e3c1dc7b446fc0c602",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/ec_l2.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/daily-trend.js",
+      "original_sha256": "b32cd471c266382175e5be474b35c9fb0178a300e25b96129d8da813f9985cf4",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/ec_r1.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/province-ranking.js",
+      "original_sha256": "d75c094ff3a55fa7610008115af070fd6ac30de639da5769bb41166a4ca0f476",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/ec_r2.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/city-ranking.js",
+      "original_sha256": "3b17c8239d5e20030a4427da6f5fe11befdc3a9f8cc314054ce3d7436b3a92d1",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/echarts-wordcloud.min.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/echarts-wordcloud.min.js",
+      "original_sha256": "3370469d515cb489f4a4f6f1f16ad99b813dbc87b50c267fbc1c21ee2e71a571",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/echarts.min.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/echarts.min.js",
+      "original_sha256": "1d5aed58effc87f59d7a92d78ad25891aeef87e1905a3e101304ed836537d481",
+      "original_remote_urls_sha256": "13829c83db794727de5e67a1fcbb5c7c8e40214e4f8bfecf01ac47a211c1fc2b"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/jquery-3.6.0.min.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/jquery-3.6.0.min.js",
+      "original_sha256": "ce9d07500ad91ec2b524c270764ec4c9a33e78320d8d374ec400ede488f6251b",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/static/js/time.js",
+      "new": "data-visualization/epidemic-dashboard/static/js/clock.js",
+      "original_sha256": "e1d52d9257765750a5e3446d474c29765c04cecb478027382b56f8304ae15489",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "Epidemic-visualization-main/yiqing/templates/main.html",
+      "new": "data-visualization/epidemic-dashboard/templates/dashboard.html",
+      "original_sha256": "832f96479466429abea3c92bbe8904e237b7b1b1ae14a3bae13296090c84d385",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "README.en.md",
+      "new": "README.en.md",
+      "original_sha256": "da48f00e04efcbee878f28d61620fbcff43b3ca73686a782ae2995cfb0cb6338",
+      "original_remote_urls_sha256": "a92dc879aceab3747aa5b3f7190984707cf721f2cf263d5b8ecd60fabb5b523a"
+    },
+    {
+      "old": "README.md",
+      "new": "README.md",
+      "original_sha256": "6a95ea71004356f41703f5478c4753f4ed1b720d157150713761b97291267ff7",
+      "original_remote_urls_sha256": "a5857bcafc269e39ea7085eee94b613a55fb87afe971becae2ab18c4c848dbd1"
+    },
+    {
+      "old": "STEAM/STEAM_subid/STEAM_DB.py",
+      "new": "web-scraping/steam-packages/parse_packages.py",
+      "original_sha256": "dddf61a50911c9661ac2b9c5ea2d18eab66a948e15b5554743a90623c4509583",
+      "ast_shape_sha256": "b27ec90a314d4303dc43bd6c7d14e6dd73ba6618b62ac1d65e0c998448d3850c",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "TXT合成/合并.txt",
+      "new": "text-processing/txt-tools/merged.txt",
+      "original_sha256": "e60b2af792d9f454e5fcdde70482ade5d750ff4e3e51f975763295eb6a73db9d",
+      "original_remote_urls_sha256": "8a4839b4a0ee69e2c653a7c49c02a1943494d5d0358dcfd41b733cc89ef0ffa6"
+    },
+    {
+      "old": "TXT合成/合成.py",
+      "new": "text-processing/txt-tools/merge_txt.py",
+      "original_sha256": "c5c7e802e1156d1826febbc69f29b96310dccec1d5cf2d10cde8cef24f8fda0a",
+      "ast_shape_sha256": "cc0a1541bd0f9e3fe28f7ed71fd719c24c66a0f64449035fb3a69ac9720c5a7d",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "TXT合成/编码查看.py",
+      "new": "text-processing/txt-tools/detect_encoding.py",
+      "original_sha256": "99dd0ca35db316d697063004fe6e09de82b5f82aac56f8e9f1afcb5494326770",
+      "ast_shape_sha256": "07e603d327faaf3c5a4a19e90bfb7d0f522287cced5ee8aec742fbbc84d94030",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "TXT合成/编码转换.py",
+      "new": "text-processing/txt-tools/convert_encoding.py",
+      "original_sha256": "f3cee144b01db6f6ba530bbd290d6fe5ade3fef9daee2c668aae4de913aa9ac9",
+      "ast_shape_sha256": "439497d955ec91c0563ca902a42c1a0ccc99a3b25fe83c00c7ee38cca6b992de",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "base64/33.jpeg",
+      "new": "text-processing/base64-tools/decoded-image.jpeg",
+      "original_sha256": "03ec98aaf3f96a067b8acfc9fd9a37c343551711e9c080732d4b5550370fd804"
+    },
+    {
+      "old": "base64/图片解码.py",
+      "new": "text-processing/base64-tools/decode_image.py",
+      "original_sha256": "11558bcc7c3525832c6377c4f9bf14fc0bf2a07dcc0a27b59b6625a6d00e3675",
+      "ast_shape_sha256": "3a4001a740f84925260eb620f7002fdbe42d1ca3df58548d7df9387b132352fb",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "docs/assets/overview.svg",
+      "new": "docs/assets/overview.svg",
+      "original_sha256": "660ac7fe3a6550a14d50800d33c7f773619c4fecaa23bd00e641f96a7fffc56b",
+      "original_remote_urls_sha256": "1335c5f23d7985991fa0f6a36c07be2678ba4755d85c4a0656b0c0cdfeec1cba"
+    },
+    {
+      "old": "selenium/1.png",
+      "new": "browser-automation/assets/browser-screenshot.png",
+      "original_sha256": "772aa5beaa6e408dd2a60f88a869f2634fb8498b1e7df110c1523ee3596f9ef6"
+    },
+    {
+      "old": "selenium/chromedriver.exe",
+      "new": "browser-automation/chromedriver.exe",
+      "original_sha256": "f12f99739676c6356daa7377f9e81de25a1d3758217ac6c62993fca08583c6c0"
+    },
+    {
+      "old": "selenium/selenium模块/1.0.py",
+      "new": "browser-automation/basics/qq_login_class_demo.py",
+      "original_sha256": "bf46d662fed6366e5e05d83420c1c3fe55d1478765bbbcae72dbf24517325694",
+      "ast_shape_sha256": "8d4414fa650623c6fbcb249ff1421468b2bb9c31a80216613ff9c537428e340e",
+      "original_remote_urls_sha256": "90f7c07875922e0ef8e46b16d7b365c178b6295c8c00cba01a8f1951ccc7ea86"
+    },
+    {
+      "old": "selenium/selenium模块/Selenium模拟用户点击爬取javascript.py",
+      "new": "browser-automation/basics/javascript_click_demo.py",
+      "original_sha256": "f6d1c68be540914181269121813ca3306c7ae56b4ac9c2fad22d040292a04a92",
+      "ast_shape_sha256": "6ce8af718a42562c9a9221ee5f71ac19026a1426a048542d80c7f4a69eff0dea",
+      "original_remote_urls_sha256": "3161d45c274c209d95734c69e3a3d3f436cc33c26344f0575327e9cc5f696b4e"
+    },
+    {
+      "old": "selenium/selenium模块/chromedriver.exe",
+      "new": "browser-automation/basics/chromedriver.exe",
+      "original_sha256": "f12f99739676c6356daa7377f9e81de25a1d3758217ac6c62993fca08583c6c0"
+    },
+    {
+      "old": "selenium/selenium模块/python_web端自动化上传文件.py",
+      "new": "browser-automation/basics/file_upload_demo.py",
+      "original_sha256": "cc6444d2f2f9d1f86da5031df9fa86554d9223ac8c749ad0962ae34e076fe4fa",
+      "ast_shape_sha256": "45897f02849c4a6ce3edb0006967089c279dbad044f67a3897005fe04eed2526",
+      "original_remote_urls_sha256": "fe55c518338d3674d38fcb663af72f72d21ec9d0823b96fd1159da1eee3313ef"
+    },
+    {
+      "old": "selenium/selenium模块/qqlog_web.py",
+      "new": "browser-automation/basics/qq_login_demo.py",
+      "original_sha256": "66bf8971c293a1eb612c5c85d6d4df251ed8281ddc616e19bce417f94c1db82d",
+      "ast_shape_sha256": "fb288b45a05ff056a3dad7786196017277988245661940d495ded7a14e0bf472",
+      "original_remote_urls_sha256": "3161d45c274c209d95734c69e3a3d3f436cc33c26344f0575327e9cc5f696b4e"
+    },
+    {
+      "old": "selenium/供应商管理系统/VLcode.png",
+      "new": "browser-automation/supplier-portal/captcha-grayscale.png",
+      "original_sha256": "e326a1fa6b48d7a71e1683e87ace46cc9d3ffcae648b078d46d5756d36ad8d0c"
+    },
+    {
+      "old": "selenium/供应商管理系统/Vcode.png",
+      "new": "browser-automation/supplier-portal/captcha-crop.png",
+      "original_sha256": "cf13189e94b11c3e7c62366655465f7ad43d1add1efa9a7e787f391bb9714440"
+    },
+    {
+      "old": "selenium/供应商管理系统/detailHouseallocationGoods.htm",
+      "new": "browser-automation/supplier-portal/goods-allocation-details.htm",
+      "original_sha256": "b150a715fbc5304901a465c2f50e4b06074e37d4fd932418866ea1be50d41699",
+      "original_remote_urls_sha256": "e0ad5f99a4e18e2da6fc2ec70382b37cd1a6bf41d7d5d397708104add0cc590c"
+    },
+    {
+      "old": "selenium/供应商管理系统/img.png",
+      "new": "browser-automation/supplier-portal/login-screenshot.png",
+      "original_sha256": "0f2333ee778056cf536df71f6f69b005c476690cd6b23246f8ecf4bcad290c5e"
+    },
+    {
+      "old": "selenium/供应商管理系统/供应商管理平台.html",
+      "new": "browser-automation/supplier-portal/supplier-portal.html",
+      "original_sha256": "e26d43679b992e6770ddc8f3c898c517fd890a15a7c20fbc735f7e478e1ab7d1",
+      "original_remote_urls_sha256": "a3910a15a1fbbaa440275e80abbda417cb66758f4da240f83b5cd07fefa4eeca"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办.html",
+      "new": "browser-automation/supplier-portal/todo.html",
+      "original_sha256": "eea8e32e67d2d3a222ddba8860995fe5028f3e2beaed93f67f0d01dd12a6244d",
+      "original_remote_urls_sha256": "2be1634f2da582a6028c2283c9ad4e2cc115d26a474931754142e7fbc6fe61c6"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/ams_control.js.下载",
+      "new": "browser-automation/supplier-portal/todo-assets/ams-control.js",
+      "original_sha256": "c6fd5d106ba6545ba60869b6b24ed9d00eb1196f0713bba99092d282e287cb77",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/ams_controls.css",
+      "new": "browser-automation/supplier-portal/todo-assets/ams-controls.css",
+      "original_sha256": "627d2b599403b7d28635329dbe276b11bdaa63bf589f79938f5e2d60a00b403e",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/coverForm.js.下载",
+      "new": "browser-automation/supplier-portal/todo-assets/cover-form.js",
+      "original_sha256": "21181bc5abdee6b0dc0d1680910018d4defddf6481b41514fe35dbadffd6bc19",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/jquery-ui-1.8.0.css",
+      "new": "browser-automation/supplier-portal/todo-assets/jquery-ui-1.8.0.css",
+      "original_sha256": "926eb90deb3037f2e318a986328477c2749c1e75642016485e364d90a2a1da61",
+      "original_remote_urls_sha256": "7811a95812d14a68c5d8e12fdb81e6b7ed09885a33ae80195dc0a601105ba47b"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/jquery-ui.min.js.下载",
+      "new": "browser-automation/supplier-portal/todo-assets/jquery-ui.min.js",
+      "original_sha256": "df7113bb66ade3be2f722c400f7b6c0bc7212477533dd845b0e4ef5442956ea6",
+      "original_remote_urls_sha256": "9c9201eccad3a44a90f2b6eabaa6c865c982028cee936703ac73a0aeeef34d98"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/js.1.8.0min.js.下载",
+      "new": "browser-automation/supplier-portal/todo-assets/jquery-1.8.0.min.js",
+      "original_sha256": "20ec8178bf6b2dbf99979d9d2d4cbce0abd443b79fa9064990c92356fe43bb68",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/o2o_controls.css",
+      "new": "browser-automation/supplier-portal/todo-assets/o2o-controls.css",
+      "original_sha256": "e72622779e044e2f57833db85772a76e3aafa73f70645802328ebc0536f5ec3a",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/o2o_util.js.下载",
+      "new": "browser-automation/supplier-portal/todo-assets/o2o-utils.js",
+      "original_sha256": "6df87a90e5aea4bdd49221edff39a8fb24c9aaf40b2e50b7de20076fc3c66274",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/page.js.下载",
+      "new": "browser-automation/supplier-portal/todo-assets/page.js",
+      "original_sha256": "aeeda19a63b30ce7f865faa16b3f06dc8b2bc7812b9d937b78747df86294e556",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/refresh.png",
+      "new": "browser-automation/supplier-portal/todo-assets/refresh.png",
+      "original_sha256": "30cdcf26abbb0f06bed49cac2f1994143f1a22bc4020aec75b1ce2d83e279f1e"
+    },
+    {
+      "old": "selenium/供应商管理系统/待办_files/service_base.css",
+      "new": "browser-automation/supplier-portal/todo-assets/service-base.css",
+      "original_sha256": "db0ab33fb270ca5cdb196f7056a1d102da679a3af6658c3888ca75c4c8abf785",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇.py",
+      "new": "browser-automation/supplier-portal/login_browser_demo.py",
+      "original_sha256": "5cf0e09df98fab1ec60f5172edc60ccb58148fd1fcf2b5ca0efbdb29cd338c35",
+      "ast_shape_sha256": "baa9f75d355449dec63a1ccee710e3c5245aa62c703b8fe802b4ccc1bb1b6249",
+      "original_remote_urls_sha256": "3bf929dd25e364a8851e94adc44bf7eba6e4e6cebba1acbe66b0c8cd98713ea2"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇html源码.py",
+      "new": "browser-automation/supplier-portal/parse_saved_page.py",
+      "original_sha256": "5398f4c98e60b19b275b4dbbba2a0a5f9e89d2fef0bd96ec35ff4133d766bf7c",
+      "ast_shape_sha256": "ed56ee0924075426948b13c82b628497ebf06b00203b15978dc997ca45e7fb16",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇单子量查看.py",
+      "new": "browser-automation/supplier-portal/inspect_order_count.py",
+      "original_sha256": "2472f2c5d5d853d31cd6694dafb50ede35921b8d37b1db32124dc9cbae0a3fec",
+      "ast_shape_sha256": "2f9c0e1afea129195e3d1d241c21034ecee06528a23fb6dfe4feb2000f14836d",
+      "original_remote_urls_sha256": "ef55fe8c49a753dde045766305d851bdb042f88cbdcb46f54ebbb66ed59dc7ae"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇在线源码.py",
+      "new": "browser-automation/supplier-portal/fetch_portal_page.py",
+      "original_sha256": "e68c3af1cb6bf82ac478fffc63fd7fd59c2fdbf732522d367a3eca142b697557",
+      "ast_shape_sha256": "77f47b4ce06aeba9c02904b966629e5c8fc7752e02ab1b81e762fb8d17d78879",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇物品编号.py",
+      "new": "browser-automation/supplier-portal/inspect_product_codes.py",
+      "original_sha256": "d1c8990b4d0d4b2a2f642111626c3f60535e665ae56e1e7ffb8dc0eafd2cb18c",
+      "ast_shape_sha256": "0c9d87b15bf08a639f6e2a45e4512316f4480c98b96285bfeb39a7bbadd866ec",
+      "original_remote_urls_sha256": "316dea3f11383cce9480e93b9b53909e920ece4821e6db69ba303ee81b799985"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇登录.py",
+      "new": "browser-automation/supplier-portal/login_and_orders_demo.py",
+      "original_sha256": "9ce303004530055a20e1878e0f5bafd18352b66e27391a237a0e3ef1599a7892",
+      "ast_shape_sha256": "8fa57f53c52dcabc688f44480906f55ad84a4c55063793100ee724814bb95019",
+      "original_remote_urls_sha256": "1bff5dc675353a33d75f83c81384df8ad24ac69d2d756243a23f5d3bd30ff2b7"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇详细物品页.py",
+      "new": "browser-automation/supplier-portal/fetch_product_details.py",
+      "original_sha256": "9ee7f1dc0479a14be89942a5069ff4ff43a07ca142fec592b3d3c61aee9633fe",
+      "ast_shape_sha256": "add78782bcabdc9c96129047f08a2b5c6523675eb7a8b7c4c0a6feb73bbcebd8",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "selenium/供应商管理系统/相遇验证码识别.py",
+      "new": "browser-automation/supplier-portal/captcha_api_demo.py",
+      "original_sha256": "b62585792dbbf72562b4b2e90c3cb8b9b12e1b96b22797aad1995993b2e8bb0f",
+      "ast_shape_sha256": "33c4cd03d3eb78a00086b71f90fd33b6055218755a762894db82a505e9c24805",
+      "original_remote_urls_sha256": "915b41066fcdf88c33a6ee4bcc5e75ff156176240d9ae474795c3776588f4160"
+    },
+    {
+      "old": "便利工具/.idea/inspectionProfiles/Project_Default.xml",
+      "new": "utilities/.idea/inspectionProfiles/Project_Default.xml",
+      "original_sha256": "3e9bc5cfb065f4b948fa066a837e2a16332e138f14280334c65b5a3df961e40d",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "便利工具/.idea/inspectionProfiles/profiles_settings.xml",
+      "new": "utilities/.idea/inspectionProfiles/profiles_settings.xml",
+      "original_sha256": "0156739e86d393cb905f58205f66160abd542749917415ac3b5155261528ae0b",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "便利工具/.idea/modules.xml",
+      "new": "utilities/.idea/modules.xml",
+      "original_sha256": "381e0fdc0e499c6783e51c112c1b4ac8699c0cef46eed7ca0d402be42a5d5ee9",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "便利工具/.idea/便利工具.iml",
+      "new": "utilities/.idea/utilities.iml",
+      "original_sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "便利工具/翻译/翻译.py",
+      "new": "utilities/translation/translate_text.py",
+      "original_sha256": "efdc0d2ba0e6917cec99bf24cce2779bcaac355e330a9876c4b59c9693334783",
+      "ast_shape_sha256": "8c0f385ea232c56677eb824885e608699e0731ce16f2b343eeb4f1ec36a0cfd6",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "便利工具/获取图像坐标点/2.jpg",
+      "new": "utilities/image-coordinates/sample-image.jpg",
+      "original_sha256": "a6521dc870767137f779c25eea4288b39b436e6d3a55bba93f6d8e08d208a11f"
+    },
+    {
+      "old": "便利工具/获取图像坐标点/坐标定位.py",
+      "new": "utilities/image-coordinates/select_coordinates.py",
+      "original_sha256": "f44a61832d919121090258a1b5d055e7f9f4ab7df853aa188eda5c412ac0b586",
+      "ast_shape_sha256": "bb3ddc0e4f7ed2d9d76766c4bf21b3ae1d5e984f510ccfe693dfdd784201e270",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "小说爬虫项目/新笔趣阁/chapter.txt",
+      "new": "web-scraping/novel-examples/chapter-links.txt",
+      "original_sha256": "ac19e4779891f823f5b6cb86f6b1f72e1887fb0e4dc2ec14e54daba6be85d77f",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "小说爬虫项目/新笔趣阁/title.txt",
+      "new": "web-scraping/novel-examples/chapter-titles.txt",
+      "original_sha256": "01d84a92c6b6e1675d75da2a605b7900139d85d39303ec3baa627c8c4a3c0bcf",
+      "original_remote_urls_sha256": "c0df8f45b6274acebfff68c717144cf4eb7b62109aa35414cc48a7b677d9b161"
+    },
+    {
+      "old": "小说爬虫项目/新笔趣阁/多线程.py",
+      "new": "web-scraping/novel-examples/threaded_collector.py",
+      "original_sha256": "3994207608afa3b1c1f190c034d0c8e26b3b18190bba516ed4c8dbb1928b82fe",
+      "ast_shape_sha256": "3ea3d5ec343bc56617c192bd0e132306c5dd76cc56909a8c485fd23752f8587a",
+      "original_remote_urls_sha256": "f23e1054996043b36efc6bcd2def3a8a2ee0ad53ac9147ae83d08401cd6c0c72"
+    },
+    {
+      "old": "小说爬虫项目/新笔趣阁/新笔趣阁小说.py",
+      "new": "web-scraping/novel-examples/collect_chapters.py",
+      "original_sha256": "8b4c6cb4450f045550a51ac9a114787d75330e3e81b743b63c4d83c74ce88843",
+      "ast_shape_sha256": "3bdc90f12f8ee7800893ee882cc28f25814cb186bd0bdf9af62b2fe9fc1939a1",
+      "original_remote_urls_sha256": "18fa58363c187b0976a5fac7fb1abbf1cb15037ce0e075b3aa2b68589ecda8c6"
+    },
+    {
+      "old": "小说爬虫项目/新笔趣阁/牧神记.txt",
+      "new": "web-scraping/novel-examples/novel-output.txt",
+      "original_sha256": "a76bcf07344acddb560e5c872972ee786fd2cc56b93547380da0736295976452"
+    },
+    {
+      "old": "文字阅读/.idea/inspectionProfiles/Project_Default.xml",
+      "new": "text-processing/text-to-speech/.idea/inspectionProfiles/Project_Default.xml",
+      "original_sha256": "a5aa74f4b5de870eea226aa92ce3704d8c4513fd9dd571ad11728e277af6abcd",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "文字阅读/.idea/inspectionProfiles/profiles_settings.xml",
+      "new": "text-processing/text-to-speech/.idea/inspectionProfiles/profiles_settings.xml",
+      "original_sha256": "0156739e86d393cb905f58205f66160abd542749917415ac3b5155261528ae0b",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "文字阅读/.idea/modules.xml",
+      "new": "text-processing/text-to-speech/.idea/modules.xml",
+      "original_sha256": "517c5a166759f000c1a6e9244606d6de0f206224439b50e5a4cf315f2f0fbf65",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "文字阅读/.idea/文字阅读.iml",
+      "new": "text-processing/text-to-speech/.idea/text-to-speech.iml",
+      "original_sha256": "13f407095007a2bd992c853a79dbb48f9aa7ee82e5a6f85fd9f89cd913591595",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "文字阅读/1.txt",
+      "new": "text-processing/text-to-speech/sample.txt",
+      "original_sha256": "20a7a9dc2ec4b240b81b0740c5c66c98584272fc06671691af09c1fa65ba44da",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "文字阅读/python pyttsx3实现文字朗读.py",
+      "new": "text-processing/text-to-speech/read_text_with_pauses.py",
+      "original_sha256": "417837532e8d1c2e207cc7ed74018d23bb756b867ab54ffffe9ba9dbaa5d6ded",
+      "ast_shape_sha256": "c435304301e956e2f296998c24bdeef5ce86a68aa53161fb7e627a256c1ba781",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "文字阅读/读取txt朗诵.py",
+      "new": "text-processing/text-to-speech/read_text.py",
+      "original_sha256": "c100e7fe1e955074e0d06cd1f9a7325c179c95cbf86537514336b88c1f149b03",
+      "ast_shape_sha256": "67c9820cb082fd214a5c8875768729a21ed3f899d3e3e39fb5b0d9d7be5e360a",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/1.jpeg",
+      "new": "creative-demos/assets/sample-image.jpeg",
+      "original_sha256": "b7fcbc93f683f571997cb4279ed737a5aa3ff0ccc42bc2cc6a84e3aecfb9c68d"
+    },
+    {
+      "old": "花里胡哨/11111.html",
+      "new": "web-scraping/steam-packages/steam-community-snapshot.html",
+      "original_sha256": "8c527ad1892101e9b15654cf45154d61004defb6261fcbe53e600b7279ed9e42",
+      "original_remote_urls_sha256": "3229367175af0d29c01c4a7ac2572f6ee01a318b6b5c38e0ec5437c9bf1cc3a5"
+    },
+    {
+      "old": "花里胡哨/1333.py",
+      "new": "creative-demos/tkinter_dialog_prank.py",
+      "original_sha256": "5e9b50a254340405c4c07fc259bbb217e469f53d9698eaac6bdec7eaa7548cab",
+      "ast_shape_sha256": "817a31ee021578b9421c82f7fc5f6bb5bdcd537d92223e01d7d4acce86ac51e8",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/1333.spec",
+      "new": "creative-demos/tkinter_dialog_prank.spec",
+      "original_sha256": "5af3e6c5eb32135efb5b9316c170a05077172b27532e0b892ca59a967bf57f3e",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/3256.py",
+      "new": "web-scraping/comic-examples/parse_comic_images.py",
+      "original_sha256": "bda9a386e678ff62e67e92814559b9dafbc463bbcf0a48fd74291475543bd639",
+      "ast_shape_sha256": "8fff9d48c2bbb666dc1cf716d55f6fd5776a32e4bb37d5eff0b2259f1e5c9b69",
+      "original_remote_urls_sha256": "7f289963f51961eb8b49bc8b98aefe940d32d969e0c5b4e76e3b7a785412a198"
+    },
+    {
+      "old": "花里胡哨/4399.py",
+      "new": "browser-automation/basics/open_4399_demo.py",
+      "original_sha256": "7d3b677db2debfe981b0a30ed20a604aa708c55b321b847723ae91788ec542a1",
+      "ast_shape_sha256": "80c42d183ab100a9763ac8929ead0c614eae16730dbd50e053bfbca366f88f2c",
+      "original_remote_urls_sha256": "ef69137796c247169d173dacebf6d8e04e0c0ba9161587124c5b3a1b50cdab85"
+    },
+    {
+      "old": "花里胡哨/bitbug_favicon.ico",
+      "new": "creative-demos/assets/favicon.ico",
+      "original_sha256": "536010b4533cb10cf574c60b67f3a4baf93be78c78a32f35244d57a818a4f445"
+    },
+    {
+      "old": "花里胡哨/chromedriver.exe",
+      "new": "creative-demos/chromedriver.exe",
+      "original_sha256": "f12f99739676c6356daa7377f9e81de25a1d3758217ac6c62993fca08583c6c0"
+    },
+    {
+      "old": "花里胡哨/csgo开心一乐.py",
+      "new": "creative-demos/csgo_console_prank.py",
+      "original_sha256": "b7f1259314c30f88b5177116e53016bcfa337c83322cf9dcab90420439dd4959",
+      "ast_shape_sha256": "322d100e2164f5a49a8d73a32d3b945ded9815721d2cdfbb5b22b08802d801f2",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/get.py",
+      "new": "web-scraping/train-tickets/api_notes.py",
+      "original_sha256": "5dfb89b200bea09012a168137b3bfd5ced311f0e6fe711c0bd74f868839ec030",
+      "ast_shape_sha256": "518d0d4dbd624382b8fda3f455b5ef8f5daa9afd5cd999b4372852a9dcd62771",
+      "original_remote_urls_sha256": "b95dcad8eeaa3754f96d2e6ddfe7e0356e8772d8d183fe05914c97f4ca6879f1"
+    },
+    {
+      "old": "花里胡哨/代码雨.py",
+      "new": "creative-demos/code_rain.py",
+      "original_sha256": "807c173a10670f72d63df82172b48287991b75b5604680dafce724fc4b8ef075",
+      "ast_shape_sha256": "cefb4dea9e230d0f36cfbf633caa971cee0198162e88acc0f611ec2e969ba1b7",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/十秒倒计时.py",
+      "new": "creative-demos/countdown.py",
+      "original_sha256": "df29c7174d45d4ebfca740b9f4710f5ce30e50de7eced4c45a4784b1176ec1a7",
+      "ast_shape_sha256": "b52bb2b3f304a248d8f71e694c2b69a6d0fd3371939b53981982d39605d6bfed",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/圣诞树.py",
+      "new": "creative-demos/christmas_tree.py",
+      "original_sha256": "6f64a952b849606ee2d0aa3ec3fc44a636238caac08768a04bf88e0830df9a99",
+      "ast_shape_sha256": "71d5fb5fde1a6b91e68dc2acffef9fb81b727ffa335586fd5ae48b38c84aca27",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/火车票1.py",
+      "new": "web-scraping/train-tickets/query_tickets.py",
+      "original_sha256": "dc29903b708cbb92cb5c517cf84ab34bdffe7ec18d69c0ce10726f1c3aa26501",
+      "ast_shape_sha256": "46577124ff9f9b7581e06455ae24b641a974eb7875d725f333827f444bc444d0",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "花里胡哨/烟花.html",
+      "new": "creative-demos/fireworks.html",
+      "original_sha256": "0906158edd345b36c3cfb55dd597f7d9fc0390bbd00d6c8ab9744fbf3f9111d6",
+      "original_remote_urls_sha256": "c821cfcadc3db35488231d8ad56a3d255801d51c9e10ed6f0be2df894b149d28"
+    },
+    {
+      "old": "花里胡哨/翻译.py",
+      "new": "utilities/translation/translate_request_demo.py",
+      "original_sha256": "7b718e1db92eefabd5edc4b1315f4f3394800a9128ce0edebab76c1528f5a520",
+      "ast_shape_sha256": "e4888ccb3f4c61ec6d04d00a109627ee3a53a5fc570fae8111a81d518fbfc1e9",
+      "original_remote_urls_sha256": "9a07345486606b28a1fdd1ae40c9b0cd02451a676602277cef91597990893793"
+    },
+    {
+      "old": "花里胡哨/进度条.py",
+      "new": "creative-demos/progress_bar.py",
+      "original_sha256": "d524e542ff0ea193f2542f77e4a6765c7791cd980e3c546cca2c5d39cf44d6f2",
+      "ast_shape_sha256": "f096561b86267a9d18f94603925adbcf95f329deed2dee7ddad3d40ca6af01d8",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "问题/.idea/inspectionProfiles/Project_Default.xml",
+      "new": "troubleshooting/.idea/inspectionProfiles/Project_Default.xml",
+      "original_sha256": "3a442eedac119f65e1c23783717adb66dca5192b353d46aa403d4684c164fd52",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "问题/.idea/inspectionProfiles/profiles_settings.xml",
+      "new": "troubleshooting/.idea/inspectionProfiles/profiles_settings.xml",
+      "original_sha256": "0156739e86d393cb905f58205f66160abd542749917415ac3b5155261528ae0b",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "问题/.idea/modules.xml",
+      "new": "troubleshooting/.idea/modules.xml",
+      "original_sha256": "a8ead3c8db3428030977a76da27b07c9ec6348a80b8fdd9ed11b3211bb0107a2",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "问题/.idea/问题.iml",
+      "new": "troubleshooting/.idea/troubleshooting.iml",
+      "original_sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "问题/Element html at 0x1aa00451148.py",
+      "new": "troubleshooting/xpath_selection.py",
+      "original_sha256": "1d5b015b6c5bfeb514f4e4f237d4caa37ed76980ab7d30c180cd57ccb7b1d729",
+      "ast_shape_sha256": "6d87f9bfac376f89a710955c51029287696644cb08f682e01f0cebfaa058ca6b",
+      "original_remote_urls_sha256": "b96604f077498baf15102c0c01554567e7aeb5bb1d958ab87a1967c1bb5a48a8"
+    },
+    {
+      "old": "问题/【python爬虫】关于403问题的反爬处理.py",
+      "new": "troubleshooting/http_403_example.py",
+      "original_sha256": "9465c06f0adb36c163c201733a1a54c43289d363d9628fc24e49f7b8baee35df",
+      "ast_shape_sha256": "fd7932753131961d105b2819555260428abc80299784a3227afdd5f3b56101a4",
+      "original_remote_urls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "old": "问题/爬取网页时出现中文乱码问题.py",
+      "new": "troubleshooting/response_encoding.py",
+      "original_sha256": "1f9a9787d0cc88c4f92e9220c7cde36b65246a3d536ce7f5374f807b585a45b4",
+      "ast_shape_sha256": "5db14a5b58c5410c285a60543c362fd1a1cfd72bd4144b70eb6d2ce6c2d7db97",
+      "original_remote_urls_sha256": "cdf14897b5654b9c796d5c735cddb0792f74d31ada986eabd3bebd7dfcf00722"
+    }
+  ],
+  "local_reference_checks": [
+    {
+      "source": "data-visualization/epidemic-dashboard/templates/dashboard.html",
+      "targets": [
+        "data-visualization/epidemic-dashboard/static/css/dashboard.css",
+        "data-visualization/epidemic-dashboard/static/js/china-map-data.js",
+        "data-visualization/epidemic-dashboard/static/js/china-map.js",
+        "data-visualization/epidemic-dashboard/static/js/city-ranking.js",
+        "data-visualization/epidemic-dashboard/static/js/clock.js",
+        "data-visualization/epidemic-dashboard/static/js/daily-trend.js",
+        "data-visualization/epidemic-dashboard/static/js/dashboard-controller.js",
+        "data-visualization/epidemic-dashboard/static/js/echarts.min.js",
+        "data-visualization/epidemic-dashboard/static/js/history-trend.js",
+        "data-visualization/epidemic-dashboard/static/js/jquery-3.6.0.min.js",
+        "data-visualization/epidemic-dashboard/static/js/province-ranking.js"
+      ]
+    },
+    {
+      "source": "text-processing/txt-tools/merge_txt.py",
+      "targets": [
+        "text-processing/txt-tools/merged.txt"
+      ]
+    },
+    {
+      "source": "text-processing/base64-tools/decode_image.py",
+      "targets": [
+        "text-processing/base64-tools/decoded-image.jpeg"
+      ]
+    },
+    {
+      "source": "browser-automation/basics/qq_login_demo.py",
+      "targets": [
+        "browser-automation/basics/chromedriver.exe"
+      ]
+    },
+    {
+      "source": "browser-automation/supplier-portal/todo.html",
+      "targets": [
+        "browser-automation/supplier-portal/todo-assets/ams-control.js",
+        "browser-automation/supplier-portal/todo-assets/ams-controls.css",
+        "browser-automation/supplier-portal/todo-assets/cover-form.js",
+        "browser-automation/supplier-portal/todo-assets/jquery-1.8.0.min.js",
+        "browser-automation/supplier-portal/todo-assets/jquery-ui-1.8.0.css",
+        "browser-automation/supplier-portal/todo-assets/jquery-ui.min.js",
+        "browser-automation/supplier-portal/todo-assets/o2o-controls.css",
+        "browser-automation/supplier-portal/todo-assets/o2o-utils.js",
+        "browser-automation/supplier-portal/todo-assets/page.js",
+        "browser-automation/supplier-portal/todo-assets/refresh.png",
+        "browser-automation/supplier-portal/todo-assets/service-base.css"
+      ]
+    },
+    {
+      "source": "browser-automation/supplier-portal/login_and_orders_demo.py",
+      "targets": [
+        "browser-automation/supplier-portal/captcha-crop.png",
+        "browser-automation/supplier-portal/captcha-grayscale.png",
+        "browser-automation/supplier-portal/login-screenshot.png"
+      ]
+    },
+    {
+      "source": "browser-automation/supplier-portal/captcha_api_demo.py",
+      "targets": [
+        "browser-automation/supplier-portal/captcha-grayscale.png"
+      ]
+    },
+    {
+      "source": "web-scraping/novel-examples/collect_chapters.py",
+      "targets": [
+        "web-scraping/novel-examples/chapter-links.txt",
+        "web-scraping/novel-examples/chapter-titles.txt",
+        "web-scraping/novel-examples/novel-output.txt"
+      ]
+    },
+    {
+      "source": "text-processing/text-to-speech/read_text_with_pauses.py",
+      "targets": [
+        "text-processing/text-to-speech/sample.txt"
+      ]
+    },
+    {
+      "source": "text-processing/text-to-speech/read_text.py",
+      "targets": [
+        "text-processing/text-to-speech/sample.txt"
+      ]
+    },
+    {
+      "source": "creative-demos/tkinter_dialog_prank.spec",
+      "targets": [
+        "creative-demos/assets/favicon.ico",
+        "creative-demos/tkinter_dialog_prank.py"
+      ]
+    }
+  ]
+}
