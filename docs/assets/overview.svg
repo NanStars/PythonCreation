@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="PythonCreation — scripts, visuals, experiments">
+<title>PythonCreation — a personal learning archive</title>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111b2b"/><stop offset="1" stop-color="#203349"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#b7c8de" stroke-opacity=".04" fill="none"/></pattern>
+</defs>
+<rect width="1200" height="290" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="290" rx="20" fill="url(#grid)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="44" y="34" width="5" height="18" rx="2" fill="#efcc7c"/>
+<text x="62" y="48" fill="#a9b8ca" font-size="11" letter-spacing="3">PΛV / A PERSONAL LEARNING ARCHIVE</text>
+<text x="43" y="126" fill="#f0f4fa" font-size="60" font-weight="700" letter-spacing="-2">PythonCreation</text>
+<text x="47" y="170" fill="#afc1d4" font-size="23">Small experiments. Useful notes.</text>
+<path d="M46 220H1154" stroke="#b4c8e0" stroke-opacity=".18"/>
+<text x="47" y="254" fill="#90a6bf" font-size="11" letter-spacing="2">TEXT / UTILITIES / VISUALS / AUTOMATION</text>
+<text x="991" y="254" fill="#d6c298" font-size="11" letter-spacing="2">READ · TRY · ADAPT</text>
+<g fill="#26394f" stroke="#7190b1" stroke-opacity=".35">
+<rect x="826" y="72" width="88" height="106" rx="12"/><rect x="938" y="72" width="88" height="106" rx="12"/><rect x="1050" y="72" width="88" height="106" rx="12"/>
+</g>
+<g fill="none" stroke="#dfc680" stroke-width="2.5" stroke-linecap="round"><path d="M846 99H892M846 111H882M846 123H891M846 135H871"/></g>
+<path d="M956 134v-18m17 18V99m17 35v-26m17 26V91" fill="none" stroke="#85c9c5" stroke-width="5" stroke-linecap="round"/>
+<path d="m1079 100-12 12 12 12m30-24 12 12-12 12m-10-31-11 39" stroke="#b6b0de" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="854" y="160" fill="#cbb785" font-size="10" letter-spacing="2">TEXT</text>
+<text x="968" y="160" fill="#8cc2c5" font-size="10" letter-spacing="2">VIZ</text>
+<text x="1076" y="160" fill="#b8afda" font-size="10" letter-spacing="2">CODE</text>
+</g>
+</svg>
